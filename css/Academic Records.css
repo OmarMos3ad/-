@@ -1,0 +1,51 @@
+/* تنسيق العنوان */
+h1 {
+	font-size: 28px;
+	text-align: center;
+  }
+  
+  /* تنسيق الخلفية */
+  body {
+	background-color: #f2f2f2;
+  }
+  
+  /* تنسيق الجدول */
+  table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 80%;
+	max-width: 800px;
+	min-width: 500px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  table td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+  }
+  
+  table td:first-child {
+	font-weight: bold;
+	width: 30%;
+  }
+  
+  /* تنسيق الزر submit */
+  input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #3e8e41;
+  }
